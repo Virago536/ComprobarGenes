@@ -47,6 +47,11 @@ public class Main {
                     }catch(NumberFormatException n) {
                     	System.out.println("Tamaño de cadena no válido");
                     	break;
+                    }finally {
+                    	if(cont<1) {
+                    		System.out.println("Tamaño de cadena no válido");
+                        	break;
+                    	}
                     }
                     
                     
@@ -65,6 +70,9 @@ public class Main {
             }
         }
     }
+       
+}
+
        
 }
 
